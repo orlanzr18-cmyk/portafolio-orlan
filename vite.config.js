@@ -18,6 +18,7 @@ export default defineConfig({
   base: './',
   plugins: [minificarHtml],
   build: {
+    outDir: 'docs',
     minify: true,
     cssMinify: true
   }
